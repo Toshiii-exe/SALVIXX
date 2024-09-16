@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('/IMAGES/faq.webp');
+    background-image: url('faq.webp');
     background-position: center;
     color: white;
     line-height: 1.6;
