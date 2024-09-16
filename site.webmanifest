@@ -2,7 +2,7 @@
     "name": "Salvixx Hospital",
     "short_name": "Salvixx",
     "description": "Salvixx Hospital provides exceptional healthcare services.",
-    "start_url": "/HTML/index.html",
+    "start_url": "https://toshiii-exe.github.io/SALVIXX/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#da532c",
