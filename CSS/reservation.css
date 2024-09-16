@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('/IMAGES/reservation.webp');
+    background-image: url('reservation.webp');
     background-color: aqua;
     color: white;
     line-height: 1.6;
