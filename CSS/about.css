@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('/IMAGES/bckgrd01.webp');
+    background-image: url('bckgrd01.webp');
     color: white;
     line-height: 1.6;
 }
