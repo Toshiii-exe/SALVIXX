@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("/IMAGES/pharmacybackgrd.webp");
+    background-image: url("pharmacybackgrd.webp");
     background-size: cover;
     background-position: center;
     color: white;
