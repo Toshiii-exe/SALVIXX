@@ -1,0 +1,82 @@
+{
+    "analgesics": [
+        { "name": "Paracetamol", "price": 5 },
+        { "name": "Ibuprofen", "price": 8 },
+        { "name": "Aspirin", "price": 7 },
+        { "name": "Codeine", "price": 12 },
+        { "name": "Diclofenac", "price": 9 },
+        { "name": "Naproxen", "price": 10 }
+    ],
+    "antibiotics": [
+        { "name": "Amoxicillin", "price": 10 },
+        { "name": "Penicillin", "price": 12 },
+        { "name": "Ciprofloxacin", "price": 15 },
+        { "name": "Azithromycin", "price": 18 },
+        { "name": "Doxycycline", "price": 20 },
+        { "name": "Erythromycin", "price": 22 }
+    ],
+    "antipyretics": [
+        { "name": "Aspirin", "price": 7 },
+        { "name": "Ibuprofen", "price": 8 },
+        { "name": "Paracetamol", "price": 5 },
+        { "name": "Naproxen", "price": 10 },
+        { "name": "Acetaminophen", "price": 6 },
+        { "name": "Dipyrone", "price": 9 }
+    ],
+    "antimalarials": [
+        { "name": "Chloroquine", "price": 15 },
+        { "name": "Hydroxychloroquine", "price": 20 },
+        { "name": "Artemether", "price": 25 },
+        { "name": "Lumefantrine", "price": 22 },
+        { "name": "Doxycycline", "price": 20 },
+        { "name": "Mefloquine", "price": 30 }
+    ],
+    "antiseptics": [
+        { "name": "Hydrogen Peroxide", "price": 5 },
+        { "name": "Isopropyl Alcohol", "price": 10 },
+        { "name": "Chlorhexidine", "price": 12 },
+        { "name": "Povidone-Iodine", "price": 15 },
+        { "name": "Boric Acid", "price": 8 },
+        { "name": "Silver Sulfadiazine", "price": 18 }
+    ],
+    "antacids": [
+        { "name": "Aluminium Hydroxide", "price": 7 },
+        { "name": "Magnesium Hydroxide", "price": 8 },
+        { "name": "Calcium Carbonate", "price": 9 },
+        { "name": "Sodium Bicarbonate", "price": 6 },
+        { "name": "Ranitidine", "price": 12 },
+        { "name": "Famotidine", "price": 10 }
+    ],
+    "antifungals": [
+        { "name": "Fluconazole", "price": 15 },
+        { "name": "Ketoconazole", "price": 18 },
+        { "name": "Clotrimazole", "price": 12 },
+        { "name": "Terbinafine", "price": 20 },
+        { "name": "Itraconazole", "price": 25 },
+        { "name": "Amphotericin B", "price": 30 }
+    ],
+    "antihistamines": [
+        { "name": "Diphenhydramine", "price": 8 },
+        { "name": "Cetirizine", "price": 10 },
+        { "name": "Loratadine", "price": 12 },
+        { "name": "Fexofenadine", "price": 15 },
+        { "name": "Levocetirizine", "price": 14 },
+        { "name": "Chlorpheniramine", "price": 6 }
+    ],
+    "anticoagulants": [
+        { "name": "Warfarin", "price": 25 },
+        { "name": "Heparin", "price": 20 },
+        { "name": "Dabigatran", "price": 30 },
+        { "name": "Rivaroxaban", "price": 35 },
+        { "name": "Apixaban", "price": 40 },
+        { "name": "Enoxaparin", "price": 28 }
+    ],
+    "antidepressants": [
+        { "name": "Fluoxetine", "price": 15 },
+        { "name": "Sertraline", "price": 18 },
+        { "name": "Citalopram", "price": 20 },
+        { "name": "Paroxetine", "price": 22 },
+        { "name": "Amitriptyline", "price": 12 },
+        { "name": "Escitalopram", "price": 25 }
+    ]
+}

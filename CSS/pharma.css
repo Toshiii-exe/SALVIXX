@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: darkslategrey;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: white; 
+}
+
+
+section {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 800px;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+h2 {
+    margin-bottom: 15px;
+    color: #0056b3; 
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 5px;
+}
+
+
+.item {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 10px; 
+    gap: 22px;
+}
+
+
+.item label {
+    flex: 1;
+    min-width: 150px; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.quantity {
+    width: 100px; 
+    padding: 5px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 14px; 
+    box-sizing: border-box; 
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+button {
+    background-color: gray  ;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 15px;
+}
+
+
+table th {
+    background-color: slategray;
+    color: white; 
+    padding: 10px;
+    text-align: left;
+}
+
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+    text-align: left;
+}
+
+
+#total-price {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#buy-now, #save-favourites, #apply-favourites {
+    margin: 10px 5px 0 0; 
+    display: inline-block;
+}
+
+#cart{
+    margin-bottom: 3.9rem;
+}
+
+/* Footer Styles */
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pharmacy-container {
+        width: 90%;
+    }
+
+    .product {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #order-summary {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        padding: 10px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .pharmacy-container {
+        padding: 15px;
+    }
+
+    form input,
+    form select {
+        width: 100%;
+        padding: 8px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
