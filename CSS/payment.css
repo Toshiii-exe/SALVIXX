@@ -120,35 +120,6 @@ input {
     margin: 0.5rem 0;
     padding: 1rem 0;
 }
-
-/* Order Summary
-.order-summary {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.favourites-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.favourites-table th, .favourites-table td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-}
-
-.favourites-table th {
-    background-color: #2e86ab;
-    color: white;
-}
-
-.favourites-table td {
-    background-color: #444;
-}
-*/
 footer {
     padding: 10px;
     text-align: center;
