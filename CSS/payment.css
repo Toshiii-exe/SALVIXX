@@ -94,10 +94,10 @@ main {
 
 .payment-form button {
     padding: 10px 15px;
-    background-color: #2e86ab;
+    background-color: #B1D8EC;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: #0F0F0F;
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 100%; /* Ensure buttons take full width on smaller screens */
@@ -163,6 +163,16 @@ footer {
         margin: 1.5px;
         padding: 1.5px;
     }
+    .payment-form button {
+    padding: 10px 15px;
+    background-color: #2e86ab;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%; /* Ensure buttons take full width on smaller screens */
+}
 }
 
 @media (max-width: 480px) {
@@ -184,4 +194,14 @@ footer {
         margin: 1.5px;
         padding: 1.5px;
     }
+    .payment-form button {
+    padding: 10px 15px;
+    background-color: #2e86ab;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%; /* Ensure buttons take full width on smaller screens */
+}
 }
